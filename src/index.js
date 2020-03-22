@@ -13,7 +13,7 @@ module.exports = function check(str, bracketsConfig) {
   for (let i = 0; i < str.length; i++){
     if( same.indexOf(str[i]) != -1 ){
       if (br.length == 0)
-        br.push(str[i]); 
+        br.push(str[i]);
       else {
         if (br[br.length - 1] == str[i])
           br.pop();
